@@ -1,4 +1,7 @@
 ﻿# Ultra-Edit-Clone
+Big thanks to Harry Bhai for his amazing educational content
+
 this is output for clone
-![image](https://github.com/user-attachments/assets/8d7093bd-3bf4-4511-81b9-1a4efbd05866)
+![screencapture-file-D-Preparation-Placement-preparation-Sigma-Web-Dev-Course-CSS-V44-Css-Ex7Design-the-grid-index-html-2025-06-03-11_21_48](https://github.com/user-attachments/assets/459d9381-1571-4a15-b8b2-2ba029f8faab)
+
 
