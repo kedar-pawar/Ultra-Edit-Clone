@@ -1,2 +1,4 @@
 ﻿# Ultra-Edit-Clone
-![image](https://github.com/user-attachments/assets/55673196-346a-4cd1-8c22-6dacaefc040a)
+this is output for clone
+![image](https://github.com/user-attachments/assets/8d7093bd-3bf4-4511-81b9-1a4efbd05866)
+
