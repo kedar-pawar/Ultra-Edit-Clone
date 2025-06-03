@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultra Edit Navbar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+            font-family: 'Segoe UI';
+        }
+        nav{
+            display: flex;
+        }
+        .logo{
+            /* background-color: aliceblue; */
+            height: 100px;
+            display: flex;
+            align-items: center;
+            padding-left: 150px;
+         
+        }
+        .logoIcon{
+            cursor: pointer;
+        }
+        .logotext
+        {
+            font-family: 'Segoe UI';
+            padding-left: 10px;
+            cursor: pointer;
+        }
+        .logotext>p{
+            padding-left: 17px;
+            font-size: 8.5px;
+        }
+        .menu>ul{
+            padding-left:330px;
+            display: flex;
+            gap:35px;
+        }
+        ul>li{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        span{
+            padding-right:5px ;
+        }
+        .lang{
+            cursor: pointer;
+        }
+        .MacVersion{
+            height: 350px;
+            /* grid-template-rows: 100px 100px; */
+   
+        }
+        .Uppercontent{
+            height: 150px;
+            display: flex;        
+        }
+        .macversionMainText{
+            font-size: 50px;
+            padding: 70px 0 0 330px ;
+
+            /* display: flex; */
+        }
+        .macversionMainLogoDiv{
+            padding: 90px 0 0 30px ;     
+        }
+        .macversionMainLogo{
+            max-width: 300px;
+            height: 35px;
+            cursor: pointer;
+        }
+        .Downloadtext{
+            /* padding: 0px 0 0 330px; */
+            text-align: center;
+            font-size: 24px;
+            font-weight: 2;
+            letter-spacing: .005in;
+        }
+        .btn{
+            padding-top: 25px;
+            /* padding-left: 625px; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        button{
+           
+            color: #fff;
+            width: 270px;
+            height: 50px;
+            font-size: 14px;
+            background-color: #00b6d1;
+            border-width: 0 !important;
+            border-radius: 5px;
+            font-weight: 700;
+            font-style: normal;
+            text-transform: uppercase;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #0ca1b8;
+        }
+        .WinVersion{
+            height: 1000px;
+            /* background-color: antiquewhite; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .downloadSections{
+            /* border: 2px solid red; */
+            height: 1000px;
+            width: 1300px;
+            display: grid;
+            padding-left: 30px;
+            grid-template-columns:300px 300px 300px ;
+            grid-template-rows: 230px 230px 230px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+        }
+        .language{
+            height: 200px;
+            width:270px;
+            /* border: #00b6d1; */
+            background-color:#f2f4f5;   
+            display: flex; /* this is key */
+            justify-content: center; /* center horizontally */
+            align-items: center; /* center vertically */
+            flex-direction: column; /* if you want vertical stacking inside */
+            text-overflow:ellipsis;
+        }
+        
+        .top{
+            padding-top: 40px;
+        }
+        .green{
+            background-color: #32a852;
+            height: 30px;
+            width: 150px;
+        }
+        .green:hover{
+            background-color: #2e9349;
+        }
+        .ue_copied_hash{
+            height: 20px;
+            width:240px;
+            /* background: #00b6d1; */
+            font-size: 8px;
+            text-overflow:clip;
+            word-break: break-word;
+        }
+        .hash{
+            word-break: break-word;
+            font-size: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            line-height: 1rem;
+        }
+        .translation{
+            font-size: 11px;
+            padding-top: 10px;
+        }
+        .infoPanel{
+            display: flex;
+            /* justify-content: center; */
+            /* align-items: center; */
+            padding-left: 325px;
+            padding-bottom: 20px;
+        }
+        .infoPanelText{
+            padding-top: 6px;
+            padding-left: 10px;
+            font-size: 24px;
+        }
+        .verInfo{
+            padding-top: 18px;
+            padding-left: 10px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            <img src="eu.png" alt="EU" height="55px" class="logoIcon">
+            <div class="logotext">
+                <h2>UltraEdit</h2>
+                <p>An Idera, Inc.company</p>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><Span>Product</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" color="#000000" fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></li>
+                    <li><Span> For Bussiness</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" color="#000000" fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></li>
+                    <li><Span>Resources</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" color="#000000" fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></li>
+                    <li><Span>Academics Licensing </span></li>
+                    <li><Span>Our Company</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" color="#000000" fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></li>
+                    <div><img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt="" srcset="" class="lang"></div>
+                </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <div class="MainContent">
+        <div class="MacVersion">
+           <div class="Uppercontent">
+            <p class="macversionMainText">Download <b>UltraEdit</b> for    Windows</p>
+            <div class="macversionMainLogoDiv"><img decoding="async"class="macversionMainLogo" src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" width="112" height="32" alt="Reviews" class="wp-image-1613 alignnone size-full entered lazyloaded" data-lazy-src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" data-ll-status="loaded" >
+           </div>
+     
+        </div>
+               <!-- div.macVers -->
+               <h3 class="Downloadtext" >Download and try UltraEdit before you buy it! This download includes the full Windows 
+                <br>version of the text editor.</h3>
+                <div class="btn"><a href="fxsound_setup.exe"><button>Download MAC OR LINUX VERSION</button></div></a>
+        </div>
+        <div class="infoPanel">
+            <img src="eu.png" alt="EU" height="55px" class="MidlogoIcon"> <p class="infoPanelText">Download UltraEdit</p>
+            <p class="verInfo"> v2024.3 (released 2025-03-21) | Hotfix information </p>
+
+        </div>
+        <div class="WinVersion">
+            <div class="downloadSections">
+                <div class="language">
+                    <div><h3>English</h3></div>
+                    <div class="translation">  </div>
+                     <div class="top"><a href="fxsound_setup.exe"></a><button class="green ">Download 64 Bit</button></div>
+                     <div class="hash">
+                         SHA256
+                     </div>
+                     <p class="ue_copied_hash">ECE5D50C7E98A334AC2BADAC00E8E53B6C492E138BAD6880448CEF8B20A85F9A</p>
+                 </div> 
+                <div class="language">
+                    <div><h3>Deutsch</h3></div>
+                    <div class="translation">German</div>
+                     <div class="top"><a href="fxsound_setup.exe"></a><button class="green ">Download 64 Bit</button></div>
+                     <div class="hash">
+                         SHA256
+                     </div>
+                     <p class="ue_copied_hash">C3D89D95CE0668B4A5FA3BAA3C62CCFC62DBD2123126F3B3FE63B9503D274974</p>
+                 </div> 
+                 <div class="language">
+                    <div><h3>Italiano</h3></div>
+                    <div class="translation">Italian</div>
+                     <div class="top"><a href="fxsound_setup.exe"></a><button class="green ">Download 64 Bit</button></div>
+                     <div class="hash">
+                         SHA256
+                     </div>
+                     <p class="ue_copied_hash">AD34E9551D0BD61881E0F5A4F5D4DB1644A7418F348CE9F1A80EED50E1DDB894</p>
+                 </div> 
+                 <div class="language">
+                    <div><h3>Español</h3></div>
+                    <div class="translation">Spanish</div>
+                     <div class="top"><a href="fxsound_setup.exe"></a><button class="green ">Download 64 Bit</button></div>
+                     <div class="hash">
+                         SHA256
+                     </div>
+                     <p class="ue_copied_hash">CFA1C3B921348FFCF61F770AECAC9B1D0BD3E3F36D94B97CF0BC7FFAB511F6B8</p>
+                 </div> 
+                 <div class="language">
+                    <div><h3>français</h3></div>
+                    <div class="translation">French</div>
+                     <div class="top"><a href="fxsound_setup.exe"></a><button class="green ">Download 64 Bit</button></div>
+                     <div class="hash">
+                         SHA256
+                     </div>
+                     <p class="ue_copied_hash">C225CE130723868246CE6B7040241D02BCFDBF3B2F031944BD4A896F00A3B6A3</p>
+                 </div> 
+                 <div class="language">
+                    <div><h3>Português brasileiro</h3></div>
+                    <div class="translation">Brazilian Portuguese</div>
+                     <div class="top"><a href="fxsound_setup.exe"></a><button class="green ">Download 64 Bit</button></div>
+                     <div class="hash">
+                         SHA256
+                     </div>
+                     <p class="ue_copied_hash">37BA31A86CD97F8F6236138F9EC6A6C407AB2822F1F12B567FD2F5C1E37A1473</p>
+                 </div> 
+                 <div class="language">
+                    <div><h3>日本</h3></div>
+                    <div class="translation">Japanese</div>
+                     <div class="top"><a href="fxsound_setup.exe"></a><button class="green ">Download 64 Bit</button></div>
+                     <div class="hash">
+                         SHA256
+                     </div>
+                     <p class="ue_copied_hash">C6F05B920D371F32571D6FC9BD087D129124E126C8A8AFBD38B33C99336450B3</p>
+                 </div> 
+                 <div class="language">
+                    <div><h3>한국어</h3></div>
+                    <div class="translation">Korean</div>
+                     <div class="top"><a href="fxsound_setup.exe"></a><button class="green ">Download 64 Bit</button></div>
+                     <div class="hash">
+                         SHA256
+                     </div>
+                     <p class="ue_copied_hash">3A2486BC1FBBD19CEC0E21E309EDB037043211A5CED24F84CB0FEDBB6FE28741</p>
+                 </div> 
+                 <div class="language">
+                    <div><h3>华语</h3></div>
+                    <div class="translation">Chinese</div>
+                     <div class="top"><a href="fxsound_setup.exe"></a><button class="green ">Download 64 Bit</button></div>
+                     <div class="hash">
+                         SHA256
+                     </div>
+                     <p class="ue_copied_hash">90F137EC142AA2CF3430872EDA7F80D2486CA438AA544FDB9551A4FB36225163</p>
+                 </div> 
+                 <div class="language">
+                    <div><h3>華語</h3></div>
+                    <div class="translation">Traditional Chinese</div>
+                     <div class="top"><a href="fxsound_setup.exe"></a><button class="green ">Download 64 Bit</button></div>
+                     <div class="hash">
+                         SHA256
+                     </div>
+                     <p class="ue_copied_hash">9E3FDD11DF605B70597FCA9C91DAA41C4C5992357649867AE80ACECC97ECA47E</p>
+                 </div> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
